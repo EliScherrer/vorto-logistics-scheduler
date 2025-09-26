@@ -153,3 +153,33 @@ dist
 # next.js
 /.next/
 /out/
+# Go binaries and dependencies
+backend/main
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/vendor/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Database
+*.db
+*.sqlite
+
+# Docker volumes
+postgres_data/
+
+# Frontend specific paths
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
